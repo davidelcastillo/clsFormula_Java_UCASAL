@@ -34,12 +34,24 @@ public class clsFormula {
 		}
 		return flag;
 	}
+
+/**
+ * @author xion20
+ * Método que verifica si es un símbolo de apertura 
+ * true : símbolo de apertura
+ * false : cualquier otro caso */
 	
 	boolean esInc (char dig) {
 		boolean flag = false;
 		if (dig == '(' || dig == '{' || dig == '[') { flag = true; }
 		return flag;
 	}
+
+/**
+ * @author xion20
+ * Método que verifica si es un símbolo de cierre 
+ * true : símbolo de cierre
+ * false : cualquier otro caso */
 	
 	boolean esFin (char dig) {
 		boolean flag = false;
@@ -47,6 +59,11 @@ public class clsFormula {
 		return flag;
 	}
 	
+/**
+ * @author xion20
+ * Método que verifica que dado un símbolo de inicio y cierre coinciden
+ * true : símbolos coinciden ej: ()
+ * false : símbolos no coinciden ej : [}*/
 	
 	boolean pertenece (char inicio, char fin) {
 	    boolean flag = false;
