@@ -3,11 +3,21 @@ package Formula;
 public class clsFormula {
 	private String formula;
 	private clsPilaLinkedList pila;
-	
+
+/**
+ * @author xion20
+ * Constructor de clase */
+
 	clsFormula (String formula) {
 		this.formula = formula;
 		this.pila = new clsPilaLinkedList();	
 	}
+
+/**
+ * @author xion20
+ * Método general de verificación
+ * true : sintaxis bien escrita
+ * false : existe un error de sintaxis */
 	
 	boolean verificar () {
 		char digito, temp;
