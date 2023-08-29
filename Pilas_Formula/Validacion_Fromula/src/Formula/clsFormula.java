@@ -4,6 +4,10 @@ public class clsFormula {
 	private String formula;
 	private clsPilaLinkedList pila;
 	
+/*
+ * Constructor
+ *@author xion20 */
+ 
 	clsFormula (String formula) {
 		this.formula = formula;
 		this.pila = new clsPilaLinkedList();	
