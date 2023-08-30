@@ -41,6 +41,7 @@ public class clsFormula {
 				}else { return false; }	
 			}	
 		}
+		if (!this.pila.pilaVacia()) { flag = false ; }
 		return flag;
 	}
 
