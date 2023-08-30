@@ -2,11 +2,20 @@ package Formula;
 
 public class clsFormula {
 	private String formula;
+  
 	private clsPilaLinkedList pila;
 
 /**
  * @author xion20
  * Constructor de clase */
+
+
+	private clsPilaLinkedList pila;
+	
+/*
+ * Constructor
+ *@author xion20 */
+ 
 
 	clsFormula (String formula) {
 		this.formula = formula;
